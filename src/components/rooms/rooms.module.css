@@ -1,0 +1,110 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 116px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  .containerBtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 1;
+    margin-left: 50%;
+ 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+  }
+  
+  .welcome {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .titleHotel {
+    font-family: zen-antique;
+    font-size: 103px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.78px;
+  }
+
+  .description {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+  }
+
+  .scrollBtn {
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: var(--color-text);
+    color: var(--color-secundary);
+    border-radius: 50%; /* Cambia el valor de border-radius a 50% para hacerlo redondo */
+    font-weight: 600;
+    width: 50px; /* Ajusta el ancho y el alto según tus preferencias */
+    height: 50px; /* Ajusta el ancho y el alto según tus preferencias */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+/* Estilo personalizado para el DatePicker */
+.react-datepicker {
+  font-family: Montserrat, Arial, sans-serif; /* Cambia la fuente de texto */
+  background-color: var(--color-btn); /* Cambia el color de fondo */
+  color: var(--color-text); /* Cambia el color del texto */
+  border-radius: 10px; /* Aplica el radio de borde */
+  font-size: 30px; /* Cambia el tamaño de fuente */
+  font-weight: 600; /* Cambia el peso de fuente */
+  padding: 17px 26px; /* Aplica el relleno */
+  cursor: pointer; /* Cambia el cursor */
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); /* Aplica la sombra */
+  /* Agrega más reglas de estilo según tus preferencias */
+}
+
+/* Estilo para los días seleccionables */
+.react-datepicker__day--selected {
+  background-color: var(--color-btn); /* Cambia el color de fondo de los días seleccionados */
+  color: var(--color-text); /* Cambia el color del texto de los días seleccionados */
+}
+
+/* Estilo para el botón de abrir el calendario */
+.react-datepicker__input-container {
+  display: inline-block; /* Asegura que el botón de apertura del calendario se muestre correctamente */
+  position: relative;
+}
+
+/* Estilo para el botón de abrir el calendario */
+.react-datepicker__input-container input {
+  background-color: var(--color-btn); /* Cambia el color de fondo del botón de apertura */
+  color: var(--color-text); /* Cambia el color del texto del botón de apertura */
+  border-radius: 10px; /* Aplica el radio de borde al botón de apertura */
+  font-size: 30px; /* Cambia el tamaño de fuente del botón de apertura */
+  font-weight: 600; /* Cambia el peso de fuente del botón de apertura */
+  padding: 17px 26px; /* Aplica el relleno al botón de apertura */
+  cursor: pointer; /* Cambia el cursor del botón de apertura */
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); /* Aplica la sombra al botón de apertura */
+}

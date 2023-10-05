@@ -1,0 +1,30 @@
+@import "./vars.css";
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-image: url("../../../assets/navbar/home-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.facilities{
+    background-image: url("../../../assets/facilities/facilities-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rooms{
+    background-image: url("../../../assets/rooms/rooms-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contacts{
+    background-color: var(--color-secundary);
+    background-size: cover;
+    background-attachment: fixed;
+}

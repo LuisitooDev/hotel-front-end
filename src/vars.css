@@ -1,0 +1,10 @@
+:root {
+    /*COLORES*/
+    --color-secundary: #14274A;
+    --color-text: #FFFFFF;
+    --color-btn: #E0B973;;
+   
+    /*FUENTES*/
+    --font-aguafina-script: "aguafina-script";
+    --font-montserrat: "montserrat";
+}

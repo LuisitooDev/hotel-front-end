@@ -1,0 +1,36 @@
+@import "../../../vars.css";
+
+.container {
+    background-color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px; /* Agrega un relleno de 20px a todos los lados */
+}
+
+.title {
+    font-family: zen-antique;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    color: var(--color-secundary);
+  }
+
+.text {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--color-secundary)
+}
+
+.image {
+    margin-top: 10px;
+    width: 100%;
+}
