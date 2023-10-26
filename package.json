@@ -14,6 +14,8 @@
     "@fontsource/gelasio": "^5.0.8",
     "@fontsource/montserrat": "^5.0.8",
     "@fontsource/zen-antique": "^5.0.7",
+    "@stripe/react-stripe-js": "^2.3.1",
+    "@stripe/stripe-js": "^2.1.9",
     "add": "^2.0.6",
     "or": "^0.2.0",
     "react": "^18.2.0",

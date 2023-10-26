@@ -34,3 +34,86 @@
     margin-top: 10px;
     width: 100%;
 }
+
+.cardTitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
+
+.cardBanner {
+    background-color: var(--color-secundary)
+}
+
+.cardContainer {
+    border: 2px solid black;
+    border-top: none;
+    margin-bottom: 50px;
+  }
+
+  .bookBtn {
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: var(--color-btn);
+    color: var(--color-text);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .containerBtn {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed; /* Coloca el modal en una posición fija en la ventana */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    z-index: 1000; /* Asegura que el modal esté en la parte superior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modalContent {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el contenido */
+    position: relative; /* Coloca el contenido en una posición relativa */
+  }
+  
+  /* Estilos para el botón de cierre (la 'X') */
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .textPrecio {
+    border: 1px;
+    width: auto;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--color-secundary);
+  }
